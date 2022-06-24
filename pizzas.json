@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "nombre": "PIZZA DE MUZZARELLA",
+    "ingredientes": ["Salsa de tomate", "Muzzarella", "Orégano", "Aceitunas"],
+    "precio": 750,
+    "imagen": "https://blog.pedidosya.com.ar/wp-content/uploads/sites/5/2018/05/pizza-con-muzzarella.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "PIZZA NAPOLITANA",
+    "ingredientes": [
+      "Salsa de tomate",
+      "Muzzarella",
+      "Rodajas de tomate natural",
+      "ajo y perejil picado"
+    ],
+    "precio": 850,
+    "imagen": "https://blog.pedidosya.com.ar/wp-content/uploads/sites/5/2018/05/pizza-napolitana.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "PIZZA DE JAMON",
+    "ingredientes": ["Salsa de tomate", "Muzzarella", "Jamón", "Aceitunas"],
+    "precio": 850,
+    "imagen": "https://blog.pedidosya.com.ar/wp-content/uploads/sites/5/2018/05/pizza-con-jamon.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "PIZZA FUGAZZETA",
+    "ingredientes": [
+      "Salsa de tomate",
+      "Muzzarella",
+      "Trozos finos de cebolla",
+      "Orégano",
+      "Aceitunas"
+    ],
+    "precio": 800,
+    "imagen": "https://blog.pedidosya.com.ar/wp-content/uploads/sites/5/2018/05/pizza-fugazzeta.png"
+  },
+  {
+    "id": 5,
+    "nombre": "PIZZA CALABRESA",
+    "ingredientes": ["Salsa de tomate", "Muzzarella", "Longaniza calabresa"],
+    "precio": 850,
+    "imagen": "https://blog.pedidosya.com.ar/wp-content/uploads/sites/5/2018/05/pizza-calabresa.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "PIZZA DE ANANA",
+    "ingredientes": ["Salsa de tomate", "Muzzarella", "Ananá"],
+    "precio": 1050,
+    "imagen": "https://www.pedidosya.com.ar/blog/wp-content/uploads/sites/5/2017/09/pizza-anana.jpg"
+  }
+]
