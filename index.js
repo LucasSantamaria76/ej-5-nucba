@@ -23,6 +23,7 @@ const cardPrice = document.querySelector('.card-price');
 const cardIngredient = document.querySelector('.text-ingredient');
 const form = document.querySelector('form');
 const SearchInput = document.querySelector('.search');
+const tablaPizzas = document.querySelector('.tabla-pizzas');
 
 const parseCurrency = (value) =>
   new Intl.NumberFormat('es-AR', {
@@ -43,6 +44,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     ? (listadoPizzas = JSON.parse(localStorage.getItem('listadoPizzas')))
     : await getData();
 
+  const tabla = listadoPizzas.reduce((acc, val) => (acc += val.nombre + ' - '), '- ');
+  tablaPizzas.textContent = tabla;
   renderCard(listadoPizzas[0]);
 });
 
@@ -51,7 +54,7 @@ form.addEventListener('submit', (e) => {
   const pizza = listadoPizzas.find((pizza) =>
     pizza.nombre.includes(e.target[0].value.toLocaleUpperCase())
   );
-  Boolean(pizza)
+  pizza
     ? renderCard(pizza)
     : Swal.fire({
         text: 'Pizza no encontrada',
